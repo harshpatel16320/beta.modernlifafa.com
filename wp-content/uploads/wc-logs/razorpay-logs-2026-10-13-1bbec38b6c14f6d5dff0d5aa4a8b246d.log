@@ -1,0 +1,13 @@
+2026-10-13T00:04:02+00:00 INFO Running webhook cron.
+2026-10-13T00:04:02+00:00 INFO Webhook cron execution completed.
+2026-10-13T00:07:59+00:00 INFO Trying to create one_cc_address_sync_cron
+2026-10-13T00:07:59+00:00 INFO Failed to create one_cc_address_sync_cron as invalid one cc merchant
+2026-10-13T00:07:59+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: cancelled, message: invalid_1cc_merchant
+2026-10-13T00:07:59+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2026-10-13T00:07:59+00:00 INFO updateAddressSyncCronData: status=cancelled, message=invalid_1cc_merchant, cronStatus=deleted
+2026-10-13T00:07:59+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-10-13T00:08:09+00:00 INFO Attempting to delete one_cc_address_sync_cron, status: deactivated, message: 
+2026-10-13T00:08:09+00:00 INFO Deleted one_cc_address_sync_cron  if exists
+2026-10-13T00:08:09+00:00 INFO updateAddressSyncCronData: status=deactivated, message=, cronStatus=deleted
+2026-10-13T00:08:09+00:00 INFO updateAddressSyncCronData:530 - Updating option: ONE_CC_ADDRESS_SYNC_CRON_HOOK
+2026-10-13T00:08:09+00:00 INFO updateAddressSyncCronData:532 -  Successfully Updated Option: ONE_CC_ADDRESS_SYNC_CRON_HOOK

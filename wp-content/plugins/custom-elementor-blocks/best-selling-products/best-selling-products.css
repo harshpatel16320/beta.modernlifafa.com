@@ -1,0 +1,16 @@
+.best-selling-products-widget {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.best-selling-products-widget .product-item {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.best-selling-products-widget img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

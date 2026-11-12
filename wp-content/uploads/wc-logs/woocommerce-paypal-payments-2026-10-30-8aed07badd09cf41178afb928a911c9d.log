@@ -1,0 +1,59 @@
+2026-10-30T10:05:28+00:00 DEBUG #2768 - [New Request] GET /wp-admin/admin.php @ 10:05:25.140
+2026-10-30T10:05:28+00:00 DEBUG #2768 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-10-30T10:05:28+00:00 WARNING #2768 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{\"statusCode\":404,\"error\":\"Not Found\",\"message\":\"Not Found\"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-10-30T10:05:32+00:00 DEBUG #3133.REST - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks @ 10:05:29.922
+2026-10-30T10:05:32+00:00 DEBUG #3133.REST - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-10-30T10:05:42+00:00 DEBUG #7120.REST - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks @ 10:05:39.883
+2026-10-30T10:05:42+00:00 DEBUG #7120.REST - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+2026-10-30T10:05:42+00:00 DEBUG #7839.REST - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link @ 10:05:41.935
+2026-10-30T10:05:42+00:00 INFO #7839.REST - Generating onboarding URL for: sandbox-express_checkout-
+2026-10-30T10:05:44+00:00 DEBUG #7839.REST - POST https://api.woocommerce.com/integrations/ppcsandbox/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/beta.modernlifafa.com\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoic2FuZGJveC1leHByZXNzX2NoZWNrb3V0LSIsInUiOjQ1OSwiaCI6IjAyNzFjYjljMDk5ZjdlMTU4OWViMGI1NTc0Y2JkZmFkIn0","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"dd67b1c2601026615555c9247cd21cd67116a3702981a970c5353bfb07bafdff"}}}}]}
+Response Debug ID: 6af115515d5a5
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+2026-10-30T10:06:14+00:00 DEBUG #2475.WC - [New Request] POST / @ 10:06:14.381
+2026-10-30T10:06:14+00:00 ERROR #2475.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T10:06:15+00:00 DEBUG #3579.WC - [New Request] POST / @ 10:06:15.160
+2026-10-30T10:06:15+00:00 ERROR #3579.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T10:07:52+00:00 DEBUG #1546.WC - [New Request] POST / @ 10:07:51.721
+2026-10-30T10:07:52+00:00 ERROR #1546.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T10:07:52+00:00 DEBUG #2916.WC - [New Request] POST / @ 10:07:52.244
+2026-10-30T10:07:52+00:00 ERROR #2916.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T10:12:12+00:00 DEBUG #7209.WC - [New Request] POST / @ 10:12:12.209
+2026-10-30T10:12:12+00:00 ERROR #7209.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T10:12:13+00:00 DEBUG #3171.WC - [New Request] POST / @ 10:12:12.838
+2026-10-30T10:12:13+00:00 ERROR #3171.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T13:25:02+00:00 DEBUG #3528.WC - [New Request] POST / @ 13:25:02.458
+2026-10-30T13:25:02+00:00 ERROR #3528.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T13:25:03+00:00 DEBUG #7876.WC - [New Request] POST / @ 13:25:03.014
+2026-10-30T13:25:03+00:00 ERROR #7876.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T13:28:10+00:00 DEBUG #9205.WC - [New Request] POST / @ 13:28:09.457
+2026-10-30T13:28:10+00:00 ERROR #9205.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-30T13:28:10+00:00 DEBUG #9442.WC - [New Request] POST / @ 13:28:10.075
+2026-10-30T13:28:10+00:00 ERROR #9442.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.

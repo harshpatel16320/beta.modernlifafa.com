@@ -1,0 +1,113 @@
+.elementor-555 .elementor-element.elementor-element-6cced25{padding:250px 0px 135px 0px;}body.elementor-page-555:not(.elementor-motion-effects-element-type-background), body.elementor-page-555 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFF4F0;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-555 .elementor-element.elementor-element-6cced25{padding:180px 0px 80px 0px;}}@media(max-width:767px){.elementor-555 .elementor-element.elementor-element-6cced25{padding:120px 0px 30px 0px;}}/* Start custom CSS for shortcode, class: .elementor-element-ba1442b */.change-password-section .banner-title{
+    font-family: "Unna", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #5C164C;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.change-password-section .change-password-inner .input-form{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.change-password-section .change-password-inner .input-form .form-group{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.change-password-section .change-password-inner .input-form .form-group input{
+    width: 100%;
+    background: #F6E4DA;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: "DM Sans", Sans-serif;
+}
+.change-password-section .change-password-inner .button-wrap{
+    margin: 20px auto 0;
+    text-align: center;
+}
+.change-password-section .change-password-inner .custom_button{
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.change-password-section .change-password-inner .custom_button:hover{
+    background-color: #DD1265;
+    color: #ffffff;
+}
+.change-password-section .change-password-inner .input-form .form-group .error{
+    text-align: left;
+    color: red;
+}
+.change-password-section .change-password-inner .input-form .form-group .group-input{
+    position: relative;
+}
+.change-password-section .change-password-inner .input-form .form-group .group-input .password-input .show-password-input{
+    display: none;
+}
+.change-password-section .change-password-inner .input-form .form-group .group-input .input-action-btn{
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+.woocommerce-error-msg .container, .woocommerce-custom-success-msg .container {
+    text-align: center;
+}
+.woocommerce-error-msg .container .woocommerce-error, .woocommerce-custom-success-msg .container .woocommerce-message{
+    display: inline-block;
+}
+.woocommerce-error-msg .container .woocommerce-error li a{
+    color: #5c164c;
+    transition: all .3s ease;
+}
+.woocommerce-error-msg .container .woocommerce-error li a:hover{
+    color: #000000;
+}
+@media (max-width: 1024px){
+    .change-password-section .banner-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .change-password-section .banner-title{
+        font-size: 28px;
+    }
+    .change-password-section .change-password-inner .input-form .form-group input{
+        padding: 10px;
+    }
+    .change-password-section .change-password-inner .input-form .form-group .group-input .input-action-btn {
+        top: 11px;
+    }
+    .change-password-section .change-password-inner .input-form .form-group .group-input .input-action-btn img{
+        max-width: 20px;
+    }
+}/* End custom CSS */

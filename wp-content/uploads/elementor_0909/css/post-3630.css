@@ -1,0 +1,54 @@
+.elementor-3630 .elementor-element.elementor-element-094da98 > .elementor-element-populated{padding:15px 15px 15px 15px;}#elementor-popup-modal-3630 .dialog-message{width:450px;height:auto;}#elementor-popup-modal-3630{justify-content:center;align-items:center;pointer-events:all;background-color:rgba(0,0,0,.8);}#elementor-popup-modal-3630 .dialog-close-button{display:flex;top:15px;}#elementor-popup-modal-3630 .dialog-widget-content{box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);margin:15px 15px 15px 15px;}body:not(.rtl) #elementor-popup-modal-3630 .dialog-close-button{right:15px;}body.rtl #elementor-popup-modal-3630 .dialog-close-button{left:15px;}@media(max-width:767px){#elementor-popup-modal-3630 .dialog-message{width:100%;}}/* Start custom CSS for column, class: .elementor-element-094da98 */.delete-account-wrapper .modal-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Unna", Sans-serif;
+    color: #5C164C;
+}
+.delete-account-wrapper input{
+    width: 100%;
+    padding: 6px 45px 6px 12px;
+    border-radius: 10px;
+    display: block;
+    font-size: 16px;
+    background: #F6E4DA;
+    border: 1px solid #F6E4DA;
+    color: #5C164C;
+    z-index: 1;
+}
+.delete-account-wrapper .buttonGroupWrap{
+    margin-top: 30px;
+    text-align: center;
+}
+.delete-account-wrapper .buttonGroupWrap .custom_button {
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+.delete-account-wrapper .buttonGroupWrap .custom_button:hover{
+        background-color: #DD1265;
+        color: #ffffff;
+}
+@media(max-width: 400px){
+    .delete-account-wrapper .modal-title{
+        max-width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: normal;
+    }
+}/* End custom CSS */

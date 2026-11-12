@@ -1,0 +1,5 @@
+2026-10-18T11:00:45+00:00 WARNING Email "customer_new_account" for user #460 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"john.dev","user":460}
+2026-10-18T11:08:13+00:00 WARNING Email "customer_new_account" for user #461 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"ron","user":461}
+2026-10-18T11:18:38+00:00 WARNING Email "customer_new_account" for user #462 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"hailey","user":462}
+2026-10-18T11:30:57+00:00 WARNING Email "customer_new_account" for user #463 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"fergjngrdxcvggg","user":463}
+2026-10-18T12:14:13+00:00 WARNING Email "customer_new_account" for user #464 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"neilarichardson1981","user":464}

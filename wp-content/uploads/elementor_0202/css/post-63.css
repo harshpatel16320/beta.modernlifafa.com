@@ -1,0 +1,97 @@
+.elementor-63 .elementor-element.elementor-element-9a1c367 > .elementor-container{max-width:1200px;}.elementor-63 .elementor-element.elementor-element-9a1c367{padding:250px 0px 135px 0px;}.elementor-63 .elementor-element.elementor-element-2893a30 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-63 .elementor-element.elementor-element-4968df0 > .elementor-widget-container{margin:0px 0px 40px 0px;}.elementor-63 .elementor-element.elementor-element-4968df0{text-align:center;}.elementor-63 .elementor-element.elementor-element-4968df0 .elementor-heading-title{font-family:"Unna", Sans-serif;font-size:34px;font-weight:700;line-height:39px;color:#5C164C;}body.elementor-page-63:not(.elementor-motion-effects-element-type-background), body.elementor-page-63 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFF4F0;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-63 .elementor-element.elementor-element-9a1c367{padding:180px 0px 80px 0px;}.elementor-63 .elementor-element.elementor-element-4968df0 > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-63 .elementor-element.elementor-element-4968df0 .elementor-heading-title{font-size:30px;}}@media(max-width:767px){.elementor-63 .elementor-element.elementor-element-9a1c367{padding:120px 0px 30px 0px;}.elementor-63 .elementor-element.elementor-element-4968df0 .elementor-heading-title{font-size:28px;}}/* Start custom CSS for shortcode, class: .elementor-element-21eadb2 */.contact-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form-section form {
+  max-width: 900px;
+  margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.contact-form-section form .form-group{
+    width: calc(50% - 12px);
+}
+.contact-form-section form .form-group.w-100{
+    width: 100%;
+}
+.contact-form-section form .form-group p{
+    margin: 0;
+}
+.contact-form-section form .form-group p input{
+    width: 100%;
+    background: #F6E4DA;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: "DM Sans", Sans-serif;
+}
+.contact-form-section form .form-group p textarea{
+    background: #F6E4DA;
+    border: 0;
+    padding: 10px;
+    resize: vertical;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.contact-form-section form .form-group p textarea:focus{
+    outline: none;
+}
+.contact-form-section .button-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px 0;
+  margin-top: 20px;
+}
+.contact-form-section .button-wrap p {
+  text-align: center;
+  margin: 0;
+}
+.contact-form-section .button-wrap .wpcf7-spinner{
+    position: absolute;
+}
+.contact-form-section .button-wrap .captcha-wrap {
+  max-width: 350px;
+  cursor: pointer;
+}
+.contact-form-section .button-wrap .custom_button {
+  background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-form-section .button-wrap .custom_button:hover{
+    background-color: #DD1265;
+    color: #ffffff;
+}
+@media (max-width: 767px){
+    .contact-form-section form .form-group p input{
+    padding: 10px;
+    }
+}
+@media screen and (max-width: 575px) {
+  .contact-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contact-form-section form .form-group, .contact-form-section .elementor-widget-container {
+    width: 100%;
+}
+}/* End custom CSS */

@@ -1,0 +1,28 @@
+.elementor-4061 .elementor-element.elementor-element-23aba73 > .elementor-container{max-width:1200px;}.elementor-4061 .elementor-element.elementor-element-23aba73{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-4061 .elementor-element.elementor-element-765039f > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-4061 .elementor-element.elementor-element-765039f > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-item{border-color:#DD1265;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-item .elementor-tab-content{border-top-color:#DD1265;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-item .elementor-tab-title.elementor-active{border-bottom-color:#DD1265;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-icon, .elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-title{color:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-icon svg{fill:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-title{font-family:"DM Sans", Sans-serif;font-size:24px;font-weight:600;line-height:24px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title{padding:12px 20px 12px 20px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title .elementor-accordion-icon i:before{color:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title .elementor-accordion-icon svg{fill:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title.elementor-active .elementor-accordion-icon i:before{color:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title.elementor-active .elementor-accordion-icon svg{fill:#5C164C;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-content{color:#5C164C;font-family:"DM Sans", Sans-serif;font-size:18px;font-weight:400;line-height:26px;padding:0px 20px 20px 20px;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-title{font-size:20px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-content{font-size:16px;line-height:22px;}}@media(max-width:767px){.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-accordion-title{font-size:18px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-title{padding:12px 0px 12px 0px;}.elementor-4061 .elementor-element.elementor-element-ce2e5ec .elementor-tab-content{padding:0px 0px 20px 0px;}}/* Start custom CSS for accordion, class: .elementor-element-ce2e5ec */.accordion-wrapper .elementor-accordion-item{
+    border: none;
+    border-bottom: 1px solid #DD1265;
+}
+.accordion-wrapper .elementor-accordion-icon span i{
+    font-size: 20px;
+}
+.accordion-wrapper .elementor-tab-content p{
+    margin: 0;
+}
+@media(max-width: 767px){
+    .accordion-wrapper .elementor-accordion-icon span i{
+    font-size: 16px;
+}
+.accordion-wrapper .elementor-tab-title {
+    position: relative;
+}
+.accordion-wrapper .elementor-tab-title .elementor-accordion-title{
+    padding-right: 30px;
+    display: inline-block;
+}
+.accordion-wrapper .elementor-tab-title .elementor-accordion-icon{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+}/* End custom CSS */

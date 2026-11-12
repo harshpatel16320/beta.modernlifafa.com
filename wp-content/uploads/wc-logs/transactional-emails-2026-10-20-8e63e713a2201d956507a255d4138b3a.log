@@ -1,0 +1,1 @@
+2026-10-20T12:08:29+00:00 WARNING Email "customer_new_account" for user #477 failed to send: Invalid address:  (From):  CONTEXT: {"email_type":"customer_new_account","status":"failed","recipient":"kokil2522442","user":477}

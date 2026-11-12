@@ -1,0 +1,59 @@
+Harsh GitHub Sync — version 1.0
+
+CONNECTION AND PROFILES
+- Multiple database-backed repository profiles; site-name default, duplicate as name-copy, rename and delete.
+- GitHub.com HTTPS and SSH repository URLs.
+- Encrypted saved HTTPS tokens, eight-character mask and admin eye reveal.
+- PHP SSH key generation (Sodium Ed25519 or OpenSSL RSA), reuse, regenerate, delete and copy public key.
+- Connection testing and branch refresh.
+
+FILES AND UPLOADS
+- Whole WordPress tree using * or ., or selected relative paths and /plugins/ alias.
+- Optional configuration, uploads, backup and credential file inclusion.
+- Editable path/glob exclusions; defaults ignore *.wpress and wp-content/updraft/*.zip.
+- Source/exclusion multi-select pickers synchronized with text inputs after preview.
+- Preview additions, modifications and deletions in a bounded panel.
+- Optional staged-file/folder upload filter; unrelated remote paths preserved.
+- Per-file limits: 50 MiB, 100 MiB, custom minimum 10 MiB, unlimited.
+- Large-file scan; Ask, Skip, reviewed Upload and explicit automatic approval.
+- Git LFS handling for files exceeding GitHub regular-Git limits, when installed.
+- Push and fetch to a selected branch; fetch does not deploy files into WordPress.
+
+BRANCHES AND GITHUB REVIEW
+- Create branch: empty (default), selected branch, or another GitHub repository.
+- Faster selected-branch creation through GitHub API when a token is saved.
+- Admin branch deletion with typed confirmation and default/active branch protection.
+- Blank From/To selectors; distinct branches required.
+- Compare branches, find open pull requests, create and review requests, merge reviewed requests.
+- Changed-commit and stale-review checks before merging.
+- Admin conflict editor for supported same-repository UTF-8 text conflicts.
+
+AUTOMATION AND ACCESS
+- Manual, 15-minute, hourly, daily or custom day/month/year schedules.
+- Optional date-named upload branches; automatic push armed after successful manual push.
+- Configurable push/merge roles; main branch operations restricted to administrators.
+- Admin-only repository credentials, defaults and management actions.
+- Per-profile operation lock; live process phase and minute/second elapsed status.
+- No plugin-wide action deadline; hosting and individual network limits still apply.
+
+HISTORY AND MAINTENANCE
+- Database history with user, date/time, action, result, duration and file/folder counts.
+- File change manifests, folder summaries and paginated detail views.
+- History totals, status/date/order filters, clear filters and pagination.
+- CSV history download and protected archive before delete-all/reset.
+- Deletion/reset actor and time audit; exports must succeed before deletion.
+- Automatic retention: 7 days, 15 days, one month, never or custom duration.
+- Full reset of plugin database records, settings, schedules and private workspace; archives retained.
+
+UI AND REQUIREMENTS
+- Open Sans, light-color layouts, red errors, orange warnings and green success.
+- Top navigation, responsive layout and bounded sticky schedule/requirements sidebar.
+- One-time notices cleared on refresh/navigation; success toast hides after five seconds.
+- WordPress 6+, PHP 7.4+, Linux/macOS PHP host; Git and SSH for native sync.
+- PHP Sodium or OpenSSL for SSH generation; OpenSSL for encrypted token storage.
+- Internet access and GitHub permissions. Pull request tools require an HTTPS API token even with SSH pushes.
+- WordPress database content is not exported by file sync.
+- SSH private keys live in a private temporary workspace; lost workspace requires a new deploy key.
+- Cross-repository branch copy preserves Git history; Git LFS objects require separate migration.
+- Empty branches use an independent initial commit; GitHub may reject pull requests without shared history.
+- Comparison/PR file lists are subject to GitHub API limits. Conflict editor does not support every conflict type.

@@ -1,0 +1,505 @@
+/* hide product price css 17-4-26 */
+
+.cash-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cash-amount-cate {
+    font-style: italic;
+    font-size: 16px;
+    color: #5C164C; /* adjust color if needed */
+    margin: 0 0 8px 0; /* spacing below */
+}
+
+.cash-product-tags {
+    font-size: 17px;
+    font-weight: 400;
+    color: #050004;
+    line-height: 26px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+}
+
+.registry-wrapper .wishlist-product-section .product-boxes .box.presonalised-item .product-info .lifafa_amount {
+	margin-right: 2px !important;
+}
+
+.cate-custom-heading {
+    text-align: center;
+	font-family: "Unna", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #5C164C;
+}
+
+.cate-custom-subheading {
+    text-align: center;
+	font-family: "Unna", Sans-serif;
+    font-size: 17px;
+    color: #5C164C;
+    margin-top: 8px;
+}
+
+.collaborate-with-us-section {
+	display: none;
+}
+
+/* Main disabled button effect */
+.custom_button.disable_product_no_stock {
+    opacity: 0.5;
+/*     filter: blur(0.8px); */
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Image styling */
+#image_preview_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffc4d8;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect (optional premium feel) */
+#image_preview_container:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.95);
+}
+
+/* Remove button styling */
+#image_preview_container .remove-image-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+/* Button hover */
+#image_preview_container .remove-image-btn:hover {
+    background: #ff4d4d;
+    transform: scale(1.1);
+}
+
+.right-upload{
+    height: 220px;
+}
+.image-display-manual{
+    width: 100%;
+    border: 1px solid #f77caf;
+    border-radius: 0px;
+    background: #fcf3f0;
+    text-align: center;
+    color: #dd1265;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.image-display-manual .upload-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.image-display-manual img{
+    object-fit: contain;
+    max-height: 220px;    
+}
+
+#order_review > strong,
+#order_review > small {
+    display: none !important;
+}
+
+/* cross-sell-carousel design  */
+.cross-sell-carousel .item {
+    padding: 10px;
+}
+.custom-cross-sell-slider h2 {
+    margin-bottom: 20px;
+}
+
+/* hide flate rate if no shipping rate  */
+.woocommerce-shipping-totals:has(label:empty) {
+    display: none !important;
+}
+
+@media(max-width: 767px) {
+.your-lifafa-wrapper .elementor-container>div .elementor-image-box-wrapper img {
+        max-width: 50%;
+        margin-left: 20px;
+    }
+}
+
+.cross-sell-products-cls-adding .cross-sell-carousel .item .products .product-img {
+	height: 300px !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.cross-sell-products-cls-adding .cross-sell-carousel .item .products .product-img img {
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+}
+
+.cross-sell-products-cls-adding {
+    max-width: 1200px;
+    display: flex;
+    margin-inline: auto;
+    position: relative;
+    flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.cross-sell-products-cls-adding .product-content {
+	padding: 20px;
+    height: calc(100% - 300px) !important;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    align-items: flex-start;
+}
+
+.cross-sell-products-cls-adding .product-content .product-title {
+	margin: 0 0 10px 0;
+}
+
+.cross-sell-products-cls-adding .product-content .product-title a {
+	 display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    transition: all .3s ease;
+	font-size: 17px;
+    font-weight: 700;
+    color: #5C164C;
+    line-height: 26px;
+	text-decoration: none;
+}
+
+.cross-sell-products-cls-adding .product-content .product-amout{
+	font-size: 17px;
+    font-weight: 700;
+    color: #5C164C;
+    line-height: 26px;
+}
+
+.cross-sell-products-cls-adding .product-content .product-title-price {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.cross-sell-products-cls-adding .product-content .product-detail .product-detail-name {
+	font-size: 17px;
+    font-weight: 400;
+    color: #050004;
+    line-height: 26px;
+}
+
+.cross-sell-products-cls-adding .product-content .product-detail {
+	margin-bottom: 16px;
+}
+
+.cross-sell-products-cls-adding .product-content .add-to-personalized {
+	width: auto;
+    margin-top: auto;
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cross-sell-products-cls-adding .product-content .disable_product_no_stock {
+	opacity: 0.5;
+    filter: blur(0.8px);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.cross-sell-products-cls-adding h2 {
+    text-align: center;
+    font-family: "Unna", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #5C164C;
+}
+/* vendor dokan image css */
+
+.dokan-feat-image-upload.dokan-new-product-featured-img .image-wrap {
+    position: relative;
+    display: block;
+    padding-bottom: 115%;
+    overflow: hidden;
+}
+
+.dokan-feat-image-upload.dokan-new-product-featured-img .image-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.dokan-new-product-featured-img .dokan-open-hide {
+    padding-bottom: unset !important;
+}
+
+.product-edit-new-container .dokan-product-edit-form .dokan-new-product-featured-img {
+    max-height: 100% !important;
+    height: 100% !important;
+}
+
+#elementor-popup-modal-1989 {
+	background: rgba(255, 255, 255, 0.4) !important;
+}
+
+.header .search-box-wrapper .search-results {
+    background: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* New CSS start here */
+
+.cart-button-cls-adding {
+    margin-top: 5px;
+    width: 21px !important;
+}
+
+.search-cls-adding {
+    width: 25px !important;
+    margin-top: 6px;
+}
+
+.product_disabled .add_to_cart_from_wishlist {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 768px){
+	.cart-button-cls-adding .product-remove {
+    	right: 13px;
+	}
+	
+	.cart-button-cls-adding .elementor-menu-cart__main {
+    	padding: 10px 9px;
+	}
+	
+	.cart-button-cls-adding .variation-CustomPrice {
+    	margin-left: 0px;
+	}
+}
+
+/* new css date 12 aug */
+#ml-rpx-update-bank{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    color: #DD1265;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ml-rpx-update-bank:hover{
+    color: #555;
+}
+
+#ml-rpx-save-bank,
+#ml-rpx-update-bank-submit,
+#ml-rpx-cancel-bank-update,
+#ml-save-upi {
+    background: #C7B65E;
+    color: #ffffff;
+    border: 1px solid #C7B65E;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+#ml-rpx-save-bank:hover,
+#ml-rpx-update-bank-submit:hover,
+#ml-rpx-cancel-bank-update:hover,
+#ml-save-upi:hover {
+    background: #ffffff;
+    color: #e91e63;
+    border-color: #e91e63;
+}
+
+/* Click */
+#ml-rpx-update-bank:active,
+#ml-rpx-update-bank-submit:active,
+#ml-rpx-cancel-bank-update:active,
+#ml-save-upi:active {
+    transform: translateY(1px);
+}
+
+/* Focus */
+#ml-rpx-update-bank:focus,
+#ml-rpx-update-bank-submit:focus,
+#ml-rpx-cancel-bank-update:focus,
+#ml-save-upi:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.15);
+}
+
+#ml-rpx-update-bank-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 20px;
+    width: 100%;
+}
+
+#ml-rpx-update-bank-form .form-group {
+    width: 100%;
+    margin: 0;
+}
+
+#ml-rpx-update-bank-form .form-control {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #fff;
+    color: #333;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#ml-rpx-update-bank-form .form-control:focus {
+    outline: none;
+    border-color: #C7B65E;
+    box-shadow: 0 0 0 3px rgba(199, 182, 94, 0.15);
+}
+
+/* Buttons row */
+#ml-rpx-update-bank-form .form-group:last-child {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+#ml-rpx-update-bank-submit,
+#ml-rpx-cancel-bank-update {
+    background: #C7B65E;
+    color: #fff;
+    border: 1px solid #C7B65E;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#ml-rpx-update-bank-submit:hover,
+#ml-rpx-cancel-bank-update:hover {
+    background: #fff;
+    color: #e91e63;
+    border-color: #e91e63;
+}
+
+#ml-rpx-update-bank-submit:active,
+#ml-rpx-cancel-bank-update:active {
+    transform: translateY(1px);
+}
+
+/* Message */
+#ml-rpx-update-bank-message {
+    width: 100%;
+    flex-basis: 100%;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    #ml-rpx-update-bank-form {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    #ml-rpx-update-bank-form .form-group:last-child {
+        grid-column: auto;
+    }
+
+    #ml-rpx-update-bank-submit,
+    #ml-rpx-cancel-bank-update {
+        width: 100%;
+    }
+}
+
+/* Common UPI validation message */
+.ml-upi-message {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+/* Error validation */
+.ml-upi-message.error {
+    color: #dc3232;
+    /*background: #fff0f0;*/
+    border: 1px solid #f5c2c7;
+}
+
+/* Success message */
+.ml-upi-message.success {
+    color: #198754;
+    /*background: #eaf7ee;*/
+    border: 1px solid #badbcc;
+}

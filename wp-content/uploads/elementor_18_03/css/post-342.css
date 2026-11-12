@@ -1,0 +1,189 @@
+.elementor-342 .elementor-element.elementor-element-5c3cf6a > .elementor-container{max-width:1200px;}.elementor-342 .elementor-element.elementor-element-5c3cf6a{padding:250px 0px 135px 0px;}.elementor-342 .elementor-element.elementor-element-d431788 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-342 .elementor-element.elementor-element-3c52d86 > .elementor-widget-container{margin:0px 0px 40px 0px;}.elementor-342 .elementor-element.elementor-element-3c52d86{text-align:center;}.elementor-342 .elementor-element.elementor-element-3c52d86 .elementor-heading-title{font-family:"Unna", Sans-serif;font-size:34px;font-weight:700;line-height:39px;color:#5C164C;}body.elementor-page-342:not(.elementor-motion-effects-element-type-background), body.elementor-page-342 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFF4F0;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-342 .elementor-element.elementor-element-5c3cf6a{padding:180px 0px 80px 0px;}.elementor-342 .elementor-element.elementor-element-3c52d86 > .elementor-widget-container{margin:0px 0px 30px 0px;}.elementor-342 .elementor-element.elementor-element-3c52d86 .elementor-heading-title{font-size:30px;}}@media(max-width:767px){.elementor-342 .elementor-element.elementor-element-5c3cf6a{padding:120px 0px 30px 0px;}.elementor-342 .elementor-element.elementor-element-3c52d86 .elementor-heading-title{font-size:28px;}}/* Start custom CSS for received_gifts, class: .elementor-element-0d4d76a */.no-gift p{
+    text-align: center;
+    margin: 0;
+}
+.received-gifts-section .received-list .received-box {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+@media only screen and (max-width: 1280px) {
+  .received-gifts-section .received-list .received-box {
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .received-gifts-section .received-list .received-box {
+    padding: 24px 16px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .received-gifts-section .received-list .received-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.received-gifts-section .received-list .received-box:last-child {
+  margin-bottom: 0;
+}
+.received-gifts-section .received-list .received-box .received-img {
+  max-width: 180px;
+  height: 180px;
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+  .received-gifts-section .received-list .received-box .received-img {
+    max-width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+}
+.received-gifts-section .received-list .received-box .received-img img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.received-gifts-section .received-list .received-box .received-content {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  flex: 1;
+}
+.received-gifts-section .received-list .received-box .received-content .sender-name {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #DD1265;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.received-gifts-section .received-list .received-box .received-content .received-name {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #DD1265;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 1px solid #DD1265;
+}
+@media only screen and (max-width: 600px) {
+  .received-gifts-section .received-list .received-box .received-content .received-name {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto 20px;
+  }
+}
+.received-gifts-section .received-list .received-box .received-content .received-qty {
+  display: inline-block;
+  padding: 10px 26px;
+  border: 1px solid #000;
+  font-size: 14px;
+  line-height: 16px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  color: #000;
+  font-weight: 600;
+}
+.received-gifts-section .received-list .received-box .received-content p {
+  color: #000;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+  .received-gifts-section .received-list .received-box .received-content p {
+    -webkit-line-clamp: 4;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.received-gifts-section .received-list .received-box .custom_button {
+  background-color: #C7B65E;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: #000000;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.received-gifts-section .received-list .received-box .custom_button:hover {
+  background-color: #DD1265;
+  color: #ffffff;
+}
+.received-gifts-section .pagination {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.received-gifts-section .pagination .page-item {
+  background-color: #fff;
+  border-color: #DD1265;
+  color: #DD1265;
+  border-radius: 50%;
+}
+.received-gifts-section .pagination .page-item .page-link, .elementor-shortcode .received-gifts-section .pagination .page-item:hover .page-link.dots {
+  font-family: "DM Sans", sans-serif;
+  background-color: #fff;
+  border-color: #DD1265;
+  color: #DD1265;
+  background-size: cover;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  transition: all .3s ease;
+}
+.received-gifts-section .pagination .page-item .page-link:focus {
+  box-shadow: none;
+}
+.received-gifts-section .pagination .page-item.disabled .page-link {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.received-gifts-section .pagination .page-item.active .page-link, .received-gifts-section .pagination .page-item:not(.disabled):hover .page-link {
+  color: #fff;
+  border-color: #DD1265;
+  background-color: #DD1265;
+}
+@media (max-width: 767px) {
+  .received-gifts-section .pagination{
+      padding-top: 30px;
+  }
+}/* End custom CSS */

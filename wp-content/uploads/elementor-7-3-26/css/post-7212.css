@@ -1,0 +1,108 @@
+.elementor-7212 .elementor-element.elementor-element-094da98 > .elementor-element-populated{padding:15px 15px 15px 15px;}#elementor-popup-modal-7212 .dialog-message{width:650px;height:auto;}#elementor-popup-modal-7212{justify-content:center;align-items:center;pointer-events:all;background-color:rgba(0,0,0,.8);}#elementor-popup-modal-7212 .dialog-close-button{display:flex;top:15px;}#elementor-popup-modal-7212 .dialog-widget-content{box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);margin:15px 15px 15px 15px;}body:not(.rtl) #elementor-popup-modal-7212 .dialog-close-button{right:15px;}body.rtl #elementor-popup-modal-7212 .dialog-close-button{left:15px;}@media(max-width:767px){#elementor-popup-modal-7212 .dialog-message{width:100%;}}/* Start custom CSS for column, class: .elementor-element-094da98 */.choose-banner-popup .modal-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Unna", Sans-serif;
+    color: #5C164C;
+}
+
+.choose-banner-popup .banner-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 16px;
+}
+
+.choose-banner-popup .banner-wrapper .radio input {
+    display: none;
+}
+
+.choose-banner-popup .banner-wrapper .radio {
+    border: 1px solid transparent;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.choose-banner-popup .banner-wrapper .radio:hover {
+    border-color: #DD1265;
+}
+
+.choose-banner-popup .banner-wrapper .radio:has(input:checked) {
+    border-color: #DD1265;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: scale(1.05);
+}
+
+.choose-banner-popup .banner-wrapper img {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    object-position: center;
+    background: #F3E7D7;
+}
+
+.choose-banner-popup .buttonGroupWrap{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.choose-banner-popup .buttonGroupWrap .custom_button {
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.choose-banner-popup .buttonGroupWrap .custom_button:hover {
+    background-color: #DD1265;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+    .choose-banner-popup .banner-wrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .choose-banner-popup .banner-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .choose-banner-popup .banner-wrapper .radio:has(input:checked) {
+        transform: scale(1.02);
+    }
+    .choose-banner-popup .modal-body{
+    overflow-y: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+    }
+}
+@media(max-width: 400px){
+    .choose-banner-popup .modal-title{
+        max-width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: normal;
+    }
+}/* End custom CSS */

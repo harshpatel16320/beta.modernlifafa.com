@@ -1,0 +1,59 @@
+.elementor-2382 .elementor-element.elementor-element-2ab66aa > .elementor-element-populated{padding:15px 15px 15px 15px;}#elementor-popup-modal-2382 .dialog-message{width:530px;height:auto;}#elementor-popup-modal-2382{justify-content:center;align-items:center;pointer-events:all;background-color:#FFFFFF00;}#elementor-popup-modal-2382 .dialog-close-button{display:flex;top:15px;}#elementor-popup-modal-2382 .dialog-widget-content{box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);margin:15px 15px 15px 15px;}body:not(.rtl) #elementor-popup-modal-2382 .dialog-close-button{right:15px;}body.rtl #elementor-popup-modal-2382 .dialog-close-button{left:15px;}@media(max-width:767px){#elementor-popup-modal-2382 .dialog-message{width:100%;}}/* Start custom CSS for column, class: .elementor-element-2ab66aa */.share-wishlist-wrapper .modal-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Unna", Sans-serif;
+    color: #5C164C;
+}
+.share-wishlist-wrapper .sub-content{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #5C164C;
+}
+.share-wishlist-wrapper .copy-input{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+.share-wishlist-wrapper .copy-input input{
+    width: 100%;
+    padding: 6px 45px 6px 12px;
+    border-radius: 10px;
+    display: block;
+    font-size: 16px;
+    background: #F6E4DA;
+    border: 1px solid #F6E4DA;
+    color: #5C164C;
+    z-index: 1;
+}
+.share-wishlist-wrapper .copy-input input:focus{
+    outline: none;
+}
+.share-wishlist-wrapper .copy-input .copy-btn{
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+.share-wishlist-wrapper .social-share{
+    text-align: center;
+}
+@media(max-width: 400px){
+    .share-wishlist-wrapper .modal-title{
+        max-width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: normal;
+    }
+    .share-wishlist-wrapper .sub-content{
+        font-size: 15px;
+    }
+}/* End custom CSS */

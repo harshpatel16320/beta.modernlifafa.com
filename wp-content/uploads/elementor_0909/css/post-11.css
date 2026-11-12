@@ -1,0 +1,459 @@
+.elementor-11 .elementor-element.elementor-element-5e7fb97 > .elementor-container{max-width:1200px;}.elementor-11 .elementor-element.elementor-element-5e7fb97{padding:250px 0px 135px 0px;}.elementor-11 .elementor-element.elementor-element-77f4f96 > .elementor-element-populated{padding:0px 15px 0px 15px;}body.elementor-page-11:not(.elementor-motion-effects-element-type-background), body.elementor-page-11 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFF4F0;}:root{--page-title-display:none;}@media(max-width:1024px){.elementor-11 .elementor-element.elementor-element-5e7fb97{padding:180px 0px 80px 0px;}}@media(max-width:767px){.elementor-11 .elementor-element.elementor-element-5e7fb97{padding:120px 0px 30px 0px;}}/* Start custom CSS for shortcode, class: .elementor-element-a3134e9 */.lrf-section .banner-title{
+    font-family: "Unna", Sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #5C164C;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.lrf-section .lrf-inner .input-form{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lrf-section .lrf-inner .input-form .form-group{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.lrf-section .lrf-inner .input-form .form-group input{
+    width: 100%;
+    background: #F6E4DA;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: "DM Sans", Sans-serif;
+}
+.lrf-section .lrf-inner .input-form .custom_button{
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lrf-section .lrf-inner .input-form .custom_button:hover{
+    background-color: #DD1265;
+    color: #ffffff;
+}
+.lrf-section .lrf-inner .input-form .form-group .error{
+    text-align: left;
+    color: red;
+}
+.lrf-section .lrf-inner .input-form .form-group .group-input{
+    position: relative;
+}
+.lrf-section .lrf-inner .input-form .form-group .group-input .password-input .show-password-input{
+    display: none;
+}
+.lrf-section .lrf-inner .input-form .form-group .group-input .input-action-btn{
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+.lrf-section .lrf-inner .input-form .form-group .fr-link{
+    text-align: right;
+}
+.lrf-section .lrf-inner .input-form .form-group .fr-link a{
+    font-family: "DM Sans", Sans-serif;
+    color: #5c164c;
+    transition: all .3s ease;
+}
+.lrf-section .lrf-inner .input-form .form-group .fr-link a:hover{
+    color: #000000;
+}
+.lrf-section .lrf-inner .input-form .create-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.lrf-section .lrf-inner .input-form .create-link p{
+    font-family: "DM Sans", Sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.lrf-section .lrf-inner .input-form .create-link p a{
+    font-family: "DM Sans", Sans-serif;
+    margin-left: 4px;
+    color: #5c164c;
+    transition: all .3s ease;
+}
+.lrf-section .lrf-inner .input-form .create-link p a:hover{
+    color: #000000;
+}
+.reset_wrap .woocommerce-message:focus-visible, .woocommerce-error-msg .woocommerce-error:focus-visible{
+    outline: none;
+}
+.woocommerce-error-msg .container, .woocommerce-custom-success-msg .container {
+    text-align: center;
+}
+.woocommerce-error-msg .container .woocommerce-error, .woocommerce-custom-success-msg .container .woocommerce-message{
+    display: inline-block;
+}
+.woocommerce-error-msg .container .woocommerce-error li a{
+    color: #5c164c;
+    transition: all .3s ease;
+}
+.woocommerce-error-msg .container .woocommerce-error li a:hover{
+    color: #000000;
+}
+.reset_wrap p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+    max-width: 662px;
+    margin: auto;
+    border: 1px solid #DD1265;
+    border-radius: 10px;
+    color: #000;
+}
+@media (max-width: 1024px){
+    .lrf-section .banner-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px){
+    .lrf-section .banner-title{
+        font-size: 28px;
+    }
+    .lrf-section .lrf-inner .input-form .form-group input{
+        padding: 10px;
+    }
+    .lrf-section .lrf-inner .input-form .form-group .group-input .input-action-btn {
+        top: 11px;
+    }
+    .lrf-section .lrf-inner .input-form .form-group .group-input .input-action-btn img{
+        max-width: 20px;
+    }
+}
+
+
+/*My Account Page css*/
+.profile-form-section .back_wishlist{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #000;
+    transition: all .3s ease;
+}
+.profile-form-section .back_wishlist .BackwhishIcon{
+    width: 24px;
+    height: 24px;
+    transform: rotate(270deg);
+}
+.profile-form-section .back_wishlist:hover{
+    color: #DD1265;
+}
+.profile-form-section form .form-inner {
+    display: flex;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+}
+.profile-form-section form .form-inner .img-side .uploaded-img {
+    max-width: 260px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.profile-form-section form .form-inner .img-side .uploaded-img picture {
+    display: block;
+    min-width: 260px;
+    width: 260px;
+    min-height: 260px;
+    height: 260px;
+    max-width: 260px;
+    padding-bottom: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+        border: 1px solid #DD1265;
+}
+.profile-form-section form .form-inner .img-side .uploaded-img picture img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+.profile-form-section form .form-inner .img-side .uploaded-img .upload-file {
+    position: absolute;
+    left: auto;
+    bottom: -10px;
+    right: -10px;
+    max-width: 30px;
+    max-height: 30px;
+    overflow: hidden;
+    background: #DD1265;
+    background-image: url('http://203.109.113.155/modernlifafa-elementor/wp-content/themes/modern_lifafa/assets/images/pen-square.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #DD1265;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+}
+.profile-form-section form .form-inner .img-side .uploaded-img .upload-file input {
+    background: transparent;
+    max-width: 30px;
+    max-height: 30px;
+    min-width: 30px;
+    opacity: 0;
+    cursor: pointer;
+}
+.profile-form-section form .form-inner .img-side p {
+    text-align: center;
+    margin: 0;
+}
+.profile-form-section form .form-inner .img-side p a {
+    color: #000;
+    font-size: 18px;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: underline;
+    text-align: center;
+    transition: all .3s ease;
+}
+.profile-form-section form .form-inner .img-side p a:hover{
+    color: #DD1265;
+}
+.profile-form-section form .form-inner .img-side p .delete_account {
+    color: #ff3e3e;
+}
+.profile-form-section form .form-inner .img-side{
+    text-align: center;
+}
+.profile-form-section form .form-inner .img-side .custom_button{
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.profile-form-section form .form-inner .img-side .custom_button:hover{
+    background-color: #DD1265;
+    color: #ffffff;
+}
+.profile-form-section form .form-inner .signup-input-side .optional-details {
+    margin-bottom: 40px;
+}
+.profile-form-section form .form-inner .signup-input-side{
+    width: 100%;
+}
+.profile-form-section form .form-inner .signup-input-side .optional-details .optional-title {
+    font-family: "Unna", Sans-serif;
+    color: #5C164C;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 34px;
+    line-height: 39px;
+}
+
+.input-form {
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.input-form .form-group input {
+    width: 100%;
+    background: #F6E4DA;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    font-family: "DM Sans", Sans-serif;
+}
+.input-form textarea {
+    background: #F6E4DA;
+    border: 0;
+    padding: 10px;
+    resize: vertical;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.input-form textarea:focus {
+    outline: none;
+}
+.signup-input-side .button-wrap .custom_button {
+    background-color: #C7B65E;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.signup-input-side .button-wrap .custom_button:hover {
+    background-color: #DD1265;
+    color: #ffffff;
+}
+.input-form .group-input {
+    position: relative;
+}
+.input-form .group-input .input-action-btn {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+}
+.input-form .group-input .input-action-btn .tooltip-info {
+    display: inline-block;
+    position: absolute;
+    top: -63px;
+    left: -90px;
+    width: 200px;
+    z-index: 1;
+    padding: 6px 8px;
+    border: 1px solid #707070;
+    color: #707070;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "DM Sans", Sans-serif;
+    font-weight: 400;
+    opacity: 0;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    white-space: pre-line;
+    border-radius: 8px;
+}
+.input-form .group-input .input-action-btn:hover .tooltip-info {
+    opacity: 1;
+}
+.input-form .group-input .input-action-btn .tooltip-info::before {
+    position: absolute;
+    content: " ";
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    z-index: -1;
+    border-bottom: 1px solid #707070;
+    border-right: 1px solid #707070;
+}
+
+@media screen and (max-width: 1366px){
+    .input-form .group-input .input-action-btn .tooltip-info {
+    left: inherit;
+    right: -15px;
+}
+.input-form .group-input .input-action-btn .tooltip-info::before {
+    left: inherit;
+    right: 16px;
+}
+}
+@media screen and (max-width: 1024px){
+.profile-form-section form .form-inner .signup-input-side .optional-details .optional-title {
+    font-size: 30px;
+}
+.input-form {
+    gap: 20px;
+}
+}
+@media screen and (max-width: 991px){
+     .profile-form-section form .form-inner {
+    flex-direction: column;
+    align-items: center;
+}
+.profile-form-section form .form-inner .signup-input-side .optional-details .optional-title {
+    margin-bottom: 10px;
+}
+.profile-form-section form .form-inner {
+    gap: 40px;
+}
+}
+@media screen and (min-width: 768px){
+    .input-form textarea{
+    grid-column: span 2;
+    }
+}
+@media screen and (max-width: 767px){
+.profile-form-section form .form-inner .img-side {
+    text-align: center;
+}
+ .profile-form-section form .form-inner .img-side .uploaded-img {
+    margin: 0 auto 20px;
+ }
+ .profile-form-section form .form-inner .signup-input-side .optional-details .banner-wrapper .radio:has(input:checked){
+    transform: scale(1.02);
+}
+.input-form {
+    grid-template-columns: repeat(1, 1fr);
+}
+.input-form .form-group input {
+    padding: 10px;
+}
+.input-form .group-input .input-action-btn {
+    top: 11px;
+}
+.profile-form-section form .form-inner .signup-input-side .optional-details .optional-title {
+    font-size: 28px;
+}
+.profile-form-section form .form-inner .signup-input-side .optional-details {
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 480px){
+    .profile-form-section form .form-inner {
+    gap: 30px;
+}
+}/* End custom CSS */

@@ -1,0 +1,119 @@
+2026-11-04T12:52:52+00:00 INFO Running webhook cron.
+2026-11-04T12:52:52+00:00 INFO Webhook cron execution completed.
+2026-11-04T12:52:57+00:00 INFO runOneCCAddressSync: [daily] past 05:00 IST hard stop, skipping this run
+2026-11-04T12:53:02+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:02+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:02+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:03+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:03+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:03+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:05+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:05+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:05+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:06+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:06+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:06+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:09+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:09+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:09+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:10+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:10+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:10+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:11+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:11+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:11+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:13+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:13+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:13+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:14+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:14+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:14+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:16+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:16+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:16+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:19+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:19+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:19+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:20+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:20+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:20+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:23+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:23+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:23+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:24+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:24+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:24+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:53:25+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T12:53:25+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T12:53:25+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T12:58:01+00:00 INFO Running webhook cron.
+2026-11-04T12:58:01+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:01:12+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T13:01:12+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T13:01:12+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T13:04:41+00:00 INFO Running webhook cron.
+2026-11-04T13:04:41+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:07:26+00:00 INFO Running webhook cron.
+2026-11-04T13:07:26+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:12:21+00:00 INFO Running webhook cron.
+2026-11-04T13:12:21+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:18:17+00:00 INFO Running webhook cron.
+2026-11-04T13:18:17+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:23:14+00:00 INFO Running webhook cron.
+2026-11-04T13:23:14+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:28:03+00:00 INFO Running webhook cron.
+2026-11-04T13:28:03+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:37:08+00:00 INFO Running webhook cron.
+2026-11-04T13:37:08+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:37:40+00:00 INFO Running webhook cron.
+2026-11-04T13:37:40+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:42:24+00:00 INFO Running webhook cron.
+2026-11-04T13:42:24+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:48:08+00:00 INFO Running webhook cron.
+2026-11-04T13:48:08+00:00 INFO Webhook cron execution completed.
+2026-11-04T13:53:21+00:00 INFO Running webhook cron.
+2026-11-04T13:53:21+00:00 INFO Webhook cron execution completed.
+2026-11-04T14:10:14+00:00 INFO Running webhook cron.
+2026-11-04T14:10:14+00:00 INFO Webhook cron execution completed.
+2026-11-04T15:48:15+00:00 INFO Running webhook cron.
+2026-11-04T15:48:15+00:00 INFO Webhook cron execution completed.
+2026-11-04T15:57:00+00:00 INFO Running webhook cron.
+2026-11-04T15:57:00+00:00 INFO Webhook cron execution completed.
+2026-11-04T17:19:47+00:00 INFO Running webhook cron.
+2026-11-04T17:19:47+00:00 INFO Webhook cron execution completed.
+2026-11-04T17:22:33+00:00 INFO Running webhook cron.
+2026-11-04T17:22:33+00:00 INFO Webhook cron execution completed.
+2026-11-04T17:59:55+00:00 INFO Running webhook cron.
+2026-11-04T17:59:55+00:00 INFO Webhook cron execution completed.
+2026-11-04T18:24:30+00:00 INFO Running webhook cron.
+2026-11-04T18:24:30+00:00 INFO Webhook cron execution completed.
+2026-11-04T19:04:22+00:00 INFO Running webhook cron.
+2026-11-04T19:04:22+00:00 INFO Webhook cron execution completed.
+2026-11-04T19:04:22+00:00 INFO runOneCCAddressSync: [daily] budget=265.6min (until 05:00 IST)
+2026-11-04T19:04:22+00:00 INFO makeAPICall: url: woocommerce/config is success
+2026-11-04T19:04:22+00:00 INFO sync: confirmed_order_id=27163, maxSeconds=15938
+2026-11-04T19:04:23+00:00 INFO makeJSONAPICall: url: woocommerce/ingest is success
+2026-11-04T19:04:23+00:00 INFO sync: config_received event sent at order_id=27163
+2026-11-04T19:04:23+00:00 INFO sync: upper_order_id=27163, confirmed_order_id=27163
+2026-11-04T19:04:23+00:00 INFO getNextBatch: confirmed_order_id=27163, orders=0
+2026-11-04T19:04:23+00:00 INFO sync: completed. cursor_order_id=27163, upper_order_id=27163
+2026-11-04T19:04:23+00:00 INFO makeJSONAPICall: url: woocommerce/ingest is success
+2026-11-04T19:04:28+00:00 INFO createOneCCAddressSyncCron: attempting to schedule daily cron
+2026-11-04T19:04:28+00:00 INFO createOneCCAddressSyncCron: already scheduled, skipping
+2026-11-04T19:04:28+00:00 INFO create one_cc_plugin_sync_cron successful
+2026-11-04T19:53:25+00:00 INFO Running webhook cron.
+2026-11-04T19:53:25+00:00 INFO Webhook cron execution completed.
+2026-11-04T20:44:26+00:00 INFO Running webhook cron.
+2026-11-04T20:44:26+00:00 INFO Webhook cron execution completed.
+2026-11-04T21:55:00+00:00 INFO Running webhook cron.
+2026-11-04T21:55:00+00:00 INFO Webhook cron execution completed.
+2026-11-04T22:34:21+00:00 INFO Running webhook cron.
+2026-11-04T22:34:21+00:00 INFO Webhook cron execution completed.
+2026-11-04T23:11:14+00:00 INFO Running webhook cron.
+2026-11-04T23:11:14+00:00 INFO Webhook cron execution completed.
+2026-11-04T23:16:12+00:00 INFO Running webhook cron.
+2026-11-04T23:16:12+00:00 INFO Webhook cron execution completed.
+2026-11-04T23:26:05+00:00 INFO Running webhook cron.
+2026-11-04T23:26:05+00:00 INFO Webhook cron execution completed.
+2026-11-04T23:53:28+00:00 INFO Running webhook cron.
+2026-11-04T23:53:28+00:00 INFO Webhook cron execution completed.
